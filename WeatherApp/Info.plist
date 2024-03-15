@@ -15,11 +15,15 @@
 					<string>Default Configuration</string>
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app requires access to your location while you are using it to provide accurate weather forecasts.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app requires access to your location at all times to provide continuous weather updates even when the app is not in use.</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>
